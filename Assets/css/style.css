@@ -486,7 +486,7 @@ footer {
     margin-top: 40px;
 }
 
-footer ul {
+footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
@@ -500,10 +500,12 @@ footer .infosectionbot {
     padding: 1em;
 }
 
-footer .infosectionbot li {
-
+footer .infosectionbot a {
+    display: flex;
+    flex-direction: column;
     line-height: 2em;
 }
+
 
 /*---- FIN SectionBot ----*/
 
